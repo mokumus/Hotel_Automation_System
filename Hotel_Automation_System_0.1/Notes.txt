@@ -1,0 +1,14 @@
+-I thought about adding more data fields to Guest and Receptionist classes like name, surname etc. but for sake of
+readability i just used bare minimum.
+
+
+
+bookRoom() makes a reservation to a room that is empty.
+checkIn() confirms when the guest is arrived to the hotel.
+
+
+
+Why did i use Map?
+-Unique keys, so no duplicate user names or room numbers. Saves us from checking for duplicty and most of the error
+handling.
+-Supports null values.
