@@ -1,9 +1,6 @@
--Implemented some features of the ManagementSystem class.
--Resolved csv file issue.
 
 
-
-Possible Problem
+Possible Problems
 -If this system was an online service we could run into some issues like two different users booking the same room at
 the same time because we only save the new data after user is done.
 
